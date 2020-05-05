@@ -2,45 +2,50 @@
 <html>
   <head>
     <title>My life on two wheels.</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header>
-      <h1>My life on two wheels.</h1>
+      <h1 id="title">My life on two wheels</h1>
       <nav>
         <ul>
-          <li><a href="#youth">Born To Ride</a></li>
+          <li><a class="menuitem" href="#youth">Chapter 1 </a></li>
           <li>
-            <a href="#commute">Road bikes and Bicycle Commuting in Atlanta</a>
+            <a href="#commute">Chapter 2</a>
           </li>
-          <li><a href="#firstMotorcycle">My First Motorcycle</a></li>
-          <li><a href="#performance">My Job at Performance Bicycle</a></li>
-          <li><a href="#marker">Getting Hit By a Car</a></li>
-          <li><a href="#florida">My life in Florida</a></li>
+          <li><a class="menuitem" href="#firstMotorcycle">Chapter 3</a></li>
+          <li><a class="menuitem" href="#performance">Chapter 4</a></li>
+          <li><a class="menuitem" href="#marker">Chapter 5</a></li>
+          <li><a class="menuitem" href="#florida">Chapter 6</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <article>
-        <section>
-          <a name="youth"></a>
-          <h2>Born To Ride</h2>
-          <p>
+        <section id="chapter1">
+          <a class="anchor" name="youth"></a>
+          <h2 class="chapter1">Born To Ride</h2>
+          <img
+            id="youngpic"
+            src="images/bikeyoungedit.JPG"
+            alt="Matt on bicycle at young age"
+            width="30%"
+            height="30%"
+          />
+
+          <p class="chapter1">
             I liked bicycles from an early age. The picture above is from when i
             was 8 years old. In 7th grade, for career day, I worked in a local
             bicycle shop.
           </p>
-          <img
-            src="images/bikeyoungedit.JPG"
-            alt="Matt on bicycle at young age"
-            width="20%"
-            height="30%"
-          />
         </section>
-        <section>
-          <a name="commute"></a>
-          <h2>Road bikes and Bicycle Commuting in Atlanta</h2>
+
+        <section id="chapter2">
+          <a class="anchor" name="commute"></a>
+          <h2 class="subtitle">Road bikes and Bicycle Commuting in Atlanta</h2>
           <img
+            id="colnago"
             alt="colnagoDream"
             src="images/Colnago-Dream-Plus-Mapei-Shimano-Dura-Ace-7700-Complete-Bike-01.jpg"
             width="40%"
@@ -71,9 +76,9 @@
             settings.
           </p>
         </section>
-        <section>
-          <a name="firstMotorcycle"></a>
-          <h2>My First Motorcycle</h2>
+        <section id="chapter3">
+          <a class="anchor" name="firstMotorcycle"></a>
+          <h2 class="subtitle">My First Motorcycle</h2>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 2010 I moved back to the suburbs
             of Atlanta, and still without a car, I was suddenly finding
@@ -88,21 +93,23 @@
             bone, and it was some of the worst pain I'd felt in my life.
           </p>
           <img
+            id="brokenwrist"
             alt="broken wrist xray"
             src="images/Broken Wrist.jpg"
-            height="25%"
-            width="25%"
           />
-          <img alt="first motorcycle" src="images/first_motorcycle.jpg" />
-        </section>
-        <section>
-          <a name="performance"></a>
-          <h2>My Job at Performance Bicycle</h2>
           <img
+            id="savage"
+            alt="first motorcycle"
+            src="images/first_motorcycle.jpg"
+          />
+        </section>
+        <section id="chapter4">
+          <a class="anchor" name="performance"></a>
+          <h2 class="subtitle">My Job at Performance Bicycle</h2>
+          <img
+            id="bicycleshop"
             src="images/Performance Bicycle.jpg"
             alt="Performance Bicycle store front"
-            width="30%"
-            height="30%"
           />
           <p>
             I ended up selling my motorcycle and moving back to the city. For
@@ -117,9 +124,9 @@
             life.
           </p>
         </section>
-        <section>
-          <a name="marker"></a>
-          <h2>Getting Hit By a Car</h2>
+        <section id="chapter5">
+          <a class="anchor" name="marker"></a>
+          <h2 class="subtitle">Getting Hit By a Car</h2>
           <p>
             While working at performance bicycle I was doing the bicycle
             commuting thing again. Every morning I rode 8 miles to work during
@@ -132,12 +139,17 @@
             settlement. I used that money to finance my move from Atlanta to
             Clearwater, where I live today.
           </p>
-          <img alt="bicycle hit by car" src="images/bicycle accident.jpg" />
-        </section>
-        <section>
-          <a name="florida"></a>
-          <h2>My life In Florida</h2>
           <img
+            id="wreck"
+            alt="bicycle hit by car"
+            src="images/bicycle accident.jpg"
+          />
+        </section>
+        <section id="chapter6">
+          <a class="anchor" name="florida"></a>
+          <h2 class="subtitle">My life In Florida</h2>
+          <img
+            id="boyblue"
             src="images/20200502_174401[1763].jpg"
             alt="Suzuki Marauder"
             height="60%"
